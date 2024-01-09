@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/note_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/note_icon"
+        android:supportsRtl="true"
+        android:theme="@style/My_Theme"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.UpdateReminderActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".Activities.NewReminderActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activities.UpdateNoteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activities.NewNoteActivity"
+            android:exported="false"
+            android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/My_Theme" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Reciever.RecieverForReminderNotification" />
+        <receiver android:name=".Reciever.RecieverForStopNotification" />
+        <receiver android:name=".Reciever.RecieverForStopAlarm" />
+        <receiver android:name=".Reciever.RecieverForAlarm" />
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEF63"
+    android:orientation="vertical"
+    tools:context=".Activities.NewNoteActivity">
+
+    <EditText
+        android:id="@+id/editTextTitleNewNote"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="#E7FFE600"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Title(Try to keep is short)"
+        android:inputType="text"
+        android:paddingStart="5dp"
+        android:textColor="#030303"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDescriptionNewNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#FFEF63"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter Your Note"
+        android:inputType="textMultiLine"
+        android:paddingLeft="3dp" />
+</LinearLayout>
