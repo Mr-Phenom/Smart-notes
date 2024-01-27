@@ -70,6 +70,15 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This project is licensed under the [MIT License](LICENSE).
 
+
+## Scrennshot:
+![Screenshot_2024-01-06-16-53-50-74_0f5c1de0dfe85402897b2f53dc6a3030](https://github.com/Mr-Phenom/TvMv-Info/assets/140901874/bda3fa3d-4f49-48de-8b7e-520288ea23f4)
+![Screenshot_2024-01-06-16-54-29-43_ab1359306de43320f9557c797b1c4be5](https://github.com/Mr-Phenom/TvMv-Info/assets/140901874/1ad7c3c9-b64d-468f-9cc4-fbe62b1dbefa)
+![Screenshot_2024-01-06-16-56-09-90_b783bf344239542886fee7b48fa4b892](https://github.com/Mr-Phenom/TvMv-Info/assets/140901874/244547c4-09ea-4d5e-98ec-bb9ef4870e24)
+![Screenshot_2024-01-06-16-56-23-02_0f5c1de0dfe85402897b2f53dc6a3030](https://github.com/Mr-Phenom/TvMv-Info/assets/140901874/84c65f49-b861-4dd5-8e81-ab82d09cc613)
+![alram ss](https://github.com/Mr-Phenom/TvMv-Info/assets/140901874/a1c74269-fb4f-49b2-bdfa-332d633ab1d9)
+![app 1](https://github.com/Mr-Phenom/TvMv-Info/assets/140901874/3c308f07-4fd0-42e4-a808-386cf4279a83)
+
 ---
 
 Feel free to customize the readme according to your project structure and technologies used.
